@@ -5,7 +5,9 @@ body {
 }
 
 .nav {
-  background-color: transparent
+  background-color: transparent;
+  border-color: none;
+  box-shadow: none;
 }
 
 .App {
@@ -14,4 +16,20 @@ body {
   background-repeat: none;
   background-size: cover;
   height: 100vh
+}
+
+.home {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  color: white;
+}
+
+.titleName {
+  font-size: 7em
+}
+
+nav ul a {
+  font-size: 1.5rem
 }
