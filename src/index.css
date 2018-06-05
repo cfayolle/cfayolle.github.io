@@ -24,6 +24,17 @@ body {
   align-items: center;
   justify-content: center;
   color: white;
+  height: 90vh;
+}
+
+.about {
+  display: flex;
+  flex-direction: row;
+  color: black;
+  background-color: grey;
+  justify-content: space-around;
+  align-items: center;
+  height: 70vh;
 }
 
 .titleName {
