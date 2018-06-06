@@ -66,3 +66,18 @@ nav ul a {
 .resume {
   padding-top: 50px
 }
+
+.projects {
+  background-image: url("/projects.jpg");
+  background-position: center;
+  background-repeat: none;
+  background-size: cover;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+}
+
+.projects h2 {
+  color: white;
+  text-shadow: 1px 1px 1px black, 0.8px 1.4px 2px white
+}

@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import './App.css';
-import { Nav, Home, About } from './components'
+import { Nav, Home, About, Projects } from './components'
 
 class App extends Component {
   render() {
@@ -9,6 +9,7 @@ class App extends Component {
         <Nav />
         <Home />
         <About />
+        <Projects />
       </div>
     );
   }
