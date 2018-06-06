@@ -35,14 +35,14 @@ body {
 .about {
   display: flex;
   flex-direction: column;
-  color: black;
-  background-color: grey;
+  color: white;
+  background: linear-gradient(to bottom right, rgb(150, 150, 150), rgb(99, 99, 105), rgb(58, 58, 58), black);
   justify-content: space-around;
   align-items: center;
   padding: 5vh;
 }
 
-p {
+.aboutText {
   text-align: left
 }
 
@@ -52,4 +52,17 @@ p {
 
 nav ul a {
   font-size: 1.5rem
+}
+
+.profile {
+  border-radius: 500px
+}
+
+.skills i {
+  font-size: 3rem;
+  margin: 10px;
+}
+
+.resume {
+  padding-top: 50px
 }
