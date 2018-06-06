@@ -18,6 +18,11 @@ body {
 }
 
 .home {
+  background-image: url("/back.jpg");
+  background-position: center;
+  background-repeat: none;
+  background-size: cover;
+  background-attachment: fixed;
   display: flex;
   justify-content: center;
   color: white;
@@ -72,12 +77,36 @@ nav ul a {
   background-position: center;
   background-repeat: none;
   background-size: cover;
+  background-attachment: fixed;
   height: 100vh;
   display: flex;
+  flex-direction: column;
   justify-content: center;
 }
 
 .projects h2 {
   color: white;
-  text-shadow: 1px 1px 1px black, 0.8px 1.4px 2px white
+  text-shadow: 0.5px 0.5px 1px black, 0.8px 0.8px 2px white
+}
+
+.projectTitle {
+  font-size: 5rem
+}
+
+.contact {
+  height: 50vh
+}
+
+.projects-row {
+  color: white;
+  width: 80vw;
+}
+
+.project-mod {
+  height: 40vh;
+}
+
+.nav .nav-wrapper div {
+  display: flex;
+  justify-content: flex-end;
 }
