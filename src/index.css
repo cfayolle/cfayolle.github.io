@@ -41,7 +41,7 @@ body {
   display: flex;
   flex-direction: column;
   color: white;
-  background: linear-gradient(to bottom right, rgb(150, 150, 150), rgb(99, 99, 105), rgb(58, 58, 58), black);
+  background: linear-gradient(to bottom right, #1b2131, #0f2644, #145876, #76b3cf );
   justify-content: space-around;
   align-items: center;
   padding: 5vh;
@@ -94,7 +94,10 @@ nav ul a {
 }
 
 .contact {
-  height: 50vh
+  display: flex;
+  height: 10vh;
+  color: white;
+  background:#2d2d2d
 }
 
 .projects-row {
