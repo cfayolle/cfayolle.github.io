@@ -8,27 +8,21 @@ const Projects = () => {
       </div>
       <div className="row projects-row">
         <div className="col s4 project-mod">
-          <div className="card">
-            <div className="card-image">
-              <img src="topshop.png" alt="topshop"/>
-            </div>
-          </div>
+          <a href="https://ccadd-topshop.herokuapp.com/">
+            <img className="project-img" src="topshop.png" alt="topshop"/>
+          </a>
           <h4>TopShop</h4>
         </div>
         <div className="col s4 project-mod">
-          <div className="card">
-            <div className="card-image">
-              <img src="jam.session.png" alt="jam.session"/>
-            </div>
-          </div>
+          <a href="https://jam-sockets.herokuapp.com/">
+            <img className="project-img" src="jam.session.png" alt="jam.session"/>
+          </a>
           <h4>Jam.Session</h4>
         </div>
         <div className="col s4 project-mod">
-          <div className="card">
-            <div className="card-image">
-              <img src="dwellplayd.png" alt="jam.session"/>
-            </div>
-          </div>
+          <a href="http://www.dwellplayd.com/">
+            <img className="project-img" src="dwellplayd.png" alt="jam.session"/>
+          </a>
           <h4>dwellplayd</h4>
         </div>
       </div>
