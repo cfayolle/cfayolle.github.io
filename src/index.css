@@ -106,7 +106,9 @@ nav ul a {
 }
 
 .project-mod {
-  height: 40vh;
+  height: auto;
+  position: relative;
+  z-index: 1
 }
 
 .nav .nav-wrapper div {
@@ -117,10 +119,27 @@ nav ul a {
 .project-img {
   width: 100%;
   height: auto;
+  border: 2px solid transparent;
+  border-bottom: 0px;
 }
 
 .project-img:hover {
   opacity: 0.8;
-  border: 3px solid white
+  border: 0px solid transparent
 }
 
+.project-text{
+  background-color: rgba(85, 84, 84, 0.795);
+  border: 1px solid transparent;
+  border-radius: 20px
+}
+
+.project-text p {
+  padding-left: 20px;
+  padding-right: 20px;
+  text-align: left;
+}
+
+.project-text h4 {
+  margin-bottom: 0
+}

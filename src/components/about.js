@@ -2,7 +2,7 @@ import React from 'react'
 
 const About = () => {
   return (
-    <div className="about">
+    <div className="about" id="about">
       <div className="row">
         <div className="col s4">
           <img className="responsive-img profile" src="./myFace.jpg" alt="Cody's Headshot"/>
