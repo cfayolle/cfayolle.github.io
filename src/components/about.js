@@ -3,11 +3,11 @@ import React from 'react'
 const About = () => {
   return (
     <div className="about" id="about">
-      <div className="row about-content">
-        <div className="col s4 profile-div">
-          <img className="responsive-img profile" src="./myFace.jpg" alt="Cody's Headshot"/>
+      <div className="about-content">
+        <div className="profile-div">
+          <img className="profile" src="./myFace.jpg" alt="Cody's Headshot"/>
         </div>
-        <div className="col s8 aboutText">
+        <div className="aboutText">
           <div>
             <h3>About Me</h3>
             <p>Hello, I’m Cody! I am a musician turned full-stack developer through Fullstack Academy, Chicago.  Currently I serve as a teaching fellow on campus, working with over 50 students learning full stack web development.</p>

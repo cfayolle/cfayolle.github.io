@@ -54,6 +54,8 @@ body {
 }
 
 .about-content {
+  display: flex;
+  flex-direction: row;
   margin-bottom: 0;
 }
 
@@ -72,11 +74,18 @@ nav ul a {
 .profile-div{
   display: flex;
   align-items: center;
+  margin-right: 30px;
+  width: 550px;
 }
 
 .skills i {
   font-size: 3rem;
   margin: 10px;
+}
+
+.skills-icons {
+  display: flex;
+  flex-wrap: wrap;
 }
 
 .resume {
@@ -123,11 +132,6 @@ nav ul a {
   width: 80vw;
 }
 
-@media (max-width: 1387px){
-  .projects {
-    height: auto;
-  }
-}
 
 .project-mod {
   width: 350px;
@@ -220,4 +224,32 @@ html, body {
   margin: 0px;
   padding: 0px;
   overflow-x: hidden;
+}
+
+@media (max-width: 1387px){
+  .projects {
+    height: auto;
+  }
+}
+
+@media (max-width: 1300px){
+  .about-content {
+    flex-direction: column
+  }
+  .profile-div {
+    justify-content: center;
+    margin-right: 0px;
+    margin-bottom: 30px;
+    width: auto;
+  }
+  .profile {
+    width: 38%
+  }
+
+}
+
+@media (max-width: 900px) {
+  .profile {
+    width: 50%
+  }
 }
