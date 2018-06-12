@@ -10,6 +10,7 @@ body {
   border-color: none;
   box-shadow: none;
   position: fixed;
+  z-index: 5;
 }
 
 .homeBack {
@@ -26,12 +27,13 @@ body {
   display: flex;
   justify-content: center;
   color: white;
-  height: 100vh
+  height: 100vh;
+  width: auto;
 }
 
 .home-text {
   position: absolute;
-  top: 40vh;
+  top: 30vh;
   color: #fff;
   text-shadow: 2px 2px #252525;
   z-index: 1;
@@ -91,6 +93,7 @@ nav ul a {
   display: flex;
   flex-direction: column;
   justify-content: center;
+  align-items: center;
 }
 
 .projects h2 {
@@ -113,11 +116,22 @@ nav ul a {
 }
 
 .projects-row {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
   color: white;
   width: 80vw;
 }
 
+@media (max-width: 1387px){
+  .projects {
+    height: auto;
+  }
+}
+
 .project-mod {
+  width: 350px;
+  margin: 10px;
   height: auto;
   position: relative;
   z-index: 1
@@ -197,4 +211,13 @@ nav ul a {
 
 .contact-title h4 {
   font-size: 5vh
+}
+
+
+html, body {
+  width: 100%;
+  height: auto;
+  margin: 0px;
+  padding: 0px;
+  overflow-x: hidden;
 }

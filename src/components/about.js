@@ -10,23 +10,26 @@ const About = () => {
         <div className="col s8 aboutText">
           <div>
             <h3>About Me</h3>
-            <p>After completing college, I spent a year in Nashville working as a research assistant and composing/producing music during my free time. As my interest in medicine began to decline, I stumbled upon programming and quickly fell in love with the intricacies of creatively solving technical problems.</p>
+            <p>Hello, I’m Cody! I am a musician turned full-stack developer through Fullstack Academy, Chicago.  Currently I serve as a teaching fellow on campus, working with over 50 students learning full stack web development.</p>
+            <p>After graduating from the University of Michigan in 2016, I spent a year in Nashville, TN creating music and exploring my interest in medicine. During this time I stumbled upon programming and quickly fell in love with the intricacies of creatively solving technical problems.</p>
           </div>
           <div className="skills">
             <h3>Skills</h3>
-            <i className="devicon-css3-plain"></i>
-            <i className="devicon-express-original"></i>
-            <i className="devicon-github-plain"></i>
-            <i className="devicon-git-plain"></i>
-            <i className="devicon-html5-plain"></i>
-            <i className="devicon-javascript-plain"></i>
-            <i className="devicon-mocha-plain"></i>
-            <i className="devicon-nodejs-plain"></i>
-            <i className="devicon-postgresql-plain"></i>
-            <i className="devicon-react-original"></i>
-            <i className="devicon-sequelize-plain"></i>
-            <i className="devicon-visualstudio-plain"></i>
-            <i className="devicon-webpack-plain"></i>
+            <div className="skills-icons">
+              <i className="devicon-css3-plain"></i>
+              <i className="devicon-express-original"></i>
+              <i className="devicon-github-plain"></i>
+              <i className="devicon-git-plain"></i>
+              <i className="devicon-html5-plain"></i>
+              <i className="devicon-javascript-plain"></i>
+              <i className="devicon-mocha-plain"></i>
+              <i className="devicon-nodejs-plain"></i>
+              <i className="devicon-postgresql-plain"></i>
+              <i className="devicon-react-original"></i>
+              <i className="devicon-sequelize-plain"></i>
+              <i className="devicon-visualstudio-plain"></i>
+              <i className="devicon-webpack-plain"></i>
+            </div>
           </div>
           <div className="resume">
             <a

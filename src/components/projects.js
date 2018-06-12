@@ -6,8 +6,8 @@ const Projects = () => {
       <div>
         <h2 className="projectTitle">Projects</h2>
       </div>
-      <div className="row projects-row">
-        <div className="col s4 project-mod">
+      <div className="projects-row">
+        <div className="project-mod">
           <a href="https://ccadd-topshop.herokuapp.com/">
             <img className="project-img" src="topshop.png" alt="topshop"/>
           </a>
@@ -16,7 +16,7 @@ const Projects = () => {
             <p>An e-commerce platform designed to sell a variety of hats.</p>
           </div>
         </div>
-        <div className="col s4 project-mod">
+        <div className="project-mod">
           <a href="https://jam-sockets.herokuapp.com/">
             <img className="project-img" src="jam.session.png" alt="jam.session"/>
           </a>
@@ -25,7 +25,7 @@ const Projects = () => {
             <p>Jam.Session is a real-time collaborative music platform.</p>
           </div>
         </div>
-        <div className="col s4 project-mod">
+        <div className="project-mod">
           <a href="http://www.dwellplayd.com/">
             <img className="project-img" src="dwellplayd.png" alt="jam.session"/>
           </a>
