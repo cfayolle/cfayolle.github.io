@@ -51,6 +51,10 @@ body {
   text-align: left
 }
 
+.about-content {
+  margin-bottom: 0;
+}
+
 .titleName {
   font-size: 7em
 }
@@ -60,7 +64,12 @@ nav ul a {
 }
 
 .profile {
-  border-radius: 500px
+  border-radius: 500px;
+}
+
+.profile-div{
+  display: flex;
+  align-items: center;
 }
 
 .skills i {
@@ -95,9 +104,12 @@ nav ul a {
 
 .contact {
   display: flex;
+  justify-content: space-between;
   height: 10vh;
   color: white;
-  background:#2d2d2d
+  background:linear-gradient(to bottom right, #2d2d2d, #030d16, #030405);
+  padding-left: 15px;
+  padding-right: 15px;
 }
 
 .projects-row {
@@ -119,19 +131,22 @@ nav ul a {
 .project-img {
   width: 100%;
   height: auto;
-  border: 2px solid transparent;
-  border-bottom: 0px;
+  border: 1px solid transparent;
+  border-radius: 10px
 }
 
 .project-img:hover {
   opacity: 0.8;
-  border: 0px solid transparent
 }
 
 .project-text{
   background-color: rgba(85, 84, 84, 0.795);
   border: 1px solid transparent;
   border-radius: 20px
+}
+
+.project-text h4 {
+  text-shadow: 0.5px 0.5px 1px black;
 }
 
 .project-text p {
@@ -142,4 +157,44 @@ nav ul a {
 
 .project-text h4 {
   margin-bottom: 0
+}
+
+.contact-icon {
+  height: 100%;
+  width: auto;
+}
+
+.linked-icon {
+  height: 60%;
+  width: auto;
+}
+
+.email-icon {
+  height: 65%;
+  width: auto;
+}
+
+.icons {
+  display: flex;
+  align-items: center;
+}
+
+.icons {
+  color: inherit;
+  text-decoration: inherit;
+}
+
+.icons a {
+  height: 100%;
+  display: flex;
+  align-items: center;
+}
+
+.contact-title {
+  display: flex;
+  align-items: center;
+}
+
+.contact-title h4 {
+  font-size: 5vh
 }

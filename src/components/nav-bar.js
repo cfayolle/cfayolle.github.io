@@ -7,7 +7,7 @@ const Nav = () => {
     <Navbar right className='nav'>
       <NavItem className='navBtn' href='/#about' >About Me</NavItem>
       <NavItem className='navBtn' href='/#projects' >Projects</NavItem>
-      <NavItem className='navBtn' href='/#contact' >Contact Me</NavItem>
+      <NavItem className='navBtn' href='/#contact' >Contact</NavItem>
     </Navbar>
   )
 }

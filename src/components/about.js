@@ -3,8 +3,8 @@ import React from 'react'
 const About = () => {
   return (
     <div className="about" id="about">
-      <div className="row">
-        <div className="col s4">
+      <div className="row about-content">
+        <div className="col s4 profile-div">
           <img className="responsive-img profile" src="./myFace.jpg" alt="Cody's Headshot"/>
         </div>
         <div className="col s8 aboutText">
@@ -29,7 +29,12 @@ const About = () => {
             <i className="devicon-webpack-plain"></i>
           </div>
           <div className="resume">
-            <button className="waves-effect btn blue lighten-2">Resume</button>
+            <a
+            href="https://drive.google.com/file/d/1A5SrsU6XaGurelpLiIJWyOWllonT__7s/view?usp=sharing"
+            className="waves-effect btn blue lighten-2"
+            target="_blank"
+            rel="noopener noreferrer"
+            >Resume</a>
           </div>
         </div>
       </div>
