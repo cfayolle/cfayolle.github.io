@@ -182,8 +182,10 @@ nav ul a {
   width: auto;
 }
 
-.linked-icon {
-  height: 60%;
+.icon {
+  font-size: 5vh;
+  margin: 5px;
+  color: white;
   width: auto;
 }
 
