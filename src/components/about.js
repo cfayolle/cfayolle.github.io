@@ -33,7 +33,7 @@ const About = () => {
           </div>
           <div className="resume">
             <a
-            href="https://drive.google.com/file/d/1A5SrsU6XaGurelpLiIJWyOWllonT__7s/view?usp=sharing"
+            href="https://drive.google.com/file/d/1bIki7Yv4Ytf2Dfq-oHdwdhfKGQiJ20QK/view?usp=sharing"
             className="waves-effect btn blue lighten-2"
             target="_blank"
             rel="noopener noreferrer"
