@@ -11,7 +11,7 @@ const About = () => {
           <div>
             <h3>About Me</h3>
             <p>Hello, I’m Cody! I am a musician turned full-stack developer through Fullstack Academy, Chicago.  Currently I serve as a teaching fellow on campus, working with over 50 students learning full stack web development.</p>
-            <p>After graduating from the University of Michigan in 2016, I spent a year in Nashville, TN creating music and exploring my interest in medicine. During this time I stumbled upon programming and quickly fell in love with the intricacies of creatively solving technical problems.</p>
+            <p>After graduating from the University of Michigan in 2016, I spent a year in Nashville, TN creating music and exploring my interest in medicine. During this time I discovered programming and quickly fell in love with the intricacies of creatively solving technical problems.</p>
           </div>
           <div className="skills">
             <h3>Skills</h3>
