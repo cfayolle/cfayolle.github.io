@@ -5,7 +5,10 @@ body {
 }
 
 .nav {
-
+  color: white;
+  display: flex;
+  justify-content: flex-end;
+  width: 100vw;
   background-color: transparent;
   border-color: none;
   box-shadow: none;
@@ -13,6 +16,16 @@ body {
   z-index: 5;
 }
 
+.navBtn{
+  color: white;
+  font-size: 1.3rem;
+  text-decoration: none;
+  padding: 10px;
+}
+
+.navBtn:hover{
+  background-color: #2d2d2d77
+}
 .homeBack {
   width: 100%;
   height: auto;
@@ -253,5 +266,11 @@ html, body {
 @media (max-width: 900px) {
   .profile {
     width: 50%
+  }
+}
+
+@media (max-width: 450px) {
+  .nav {
+    justify-content: center;
   }
 }
