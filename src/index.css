@@ -82,13 +82,14 @@ nav ul a {
 
 .profile {
   border-radius: 500px;
+  width: 300px
 }
 
 .profile-div{
   display: flex;
   align-items: center;
   margin-right: 30px;
-  width: 550px;
+  width: 500px;
 }
 
 .skills i {
@@ -247,7 +248,7 @@ html, body {
   }
 }
 
-@media (max-width: 1300px){
+@media (max-width: 900px){
   .about-content {
     flex-direction: column
   }
@@ -260,12 +261,18 @@ html, body {
   .profile {
     width: 38%
   }
+  .nav {
+    background-color: #2d2d2dc2
+  }
 
 }
 
-@media (max-width: 900px) {
-  .profile {
-    width: 50%
+@media (max-width: 630px){
+  .titleName {
+    font-size: 4rem
+  }
+  .mainTitle {
+    font-size: 2.1rem
   }
 }
 
