@@ -9,7 +9,7 @@ const Contact = () => {
       <div className="icons">
         <a
           title="Email"
-          href="mailto:cfayolle@umich.edu"
+          href="mailto:codyfayolle@gmail.com"
           target="_blank"
           rel="noopener noreferrer">
           <i className="fas fa-envelope icon"></i>
