@@ -8,17 +8,26 @@ const Projects = () => {
       </div>
       <div className="projects-row">
         <div className="project-mod">
-          <a href="https://ccadd-topshop.herokuapp.com/">
-            <img className="project-img" src="topshop.png" alt="topshop"/>
+          <a href="http://www.dwellplayd.com/">
+            <img className="project-img" src="dwellplayd.png" alt="jam.session" />
           </a>
           <div className="project-text">
-            <h4>TopShop</h4>
-            <p>An e-commerce platform designed to sell a variety of hats.</p>
+            <h4>dwellplayd</h4>
+            <p>dwellplayd is a mobile app designed to turn communal tasks into an interactive game.</p>
+          </div>
+        </div>
+        <div className="project-mod">
+          <a href="https://buzz-buzzer.herokuapp.com/">
+            <img className="project-img" src="buzzbuzz.png" alt="jam.session" />
+          </a>
+          <div className="project-text">
+            <h4>BuzzBuzz</h4>
+            <p>BuzzBuzz is a buzzing application for various games such as Jeopardy!</p>
           </div>
         </div>
         <div className="project-mod">
           <a href="https://jam-sockets.herokuapp.com/">
-            <img className="project-img" src="jam.session.png" alt="jam.session"/>
+            <img className="project-img" src="jam.session.png" alt="jam.session" />
           </a>
           <div className="project-text">
             <h4>Jam.Session</h4>
@@ -26,12 +35,12 @@ const Projects = () => {
           </div>
         </div>
         <div className="project-mod">
-          <a href="http://www.dwellplayd.com/">
-            <img className="project-img" src="dwellplayd.png" alt="jam.session"/>
+          <a href="https://ccadd-topshop.herokuapp.com/">
+            <img className="project-img" src="topshop.png" alt="topshop" />
           </a>
           <div className="project-text">
-            <h4>dwellplayd</h4>
-            <p>dwellplayd is a mobile app designed to turn communal tasks into an interactive game.</p>
+            <h4>TopShop</h4>
+            <p>An e-commerce platform designed to sell a variety of hats.</p>
           </div>
         </div>
       </div>
