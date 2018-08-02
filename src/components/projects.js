@@ -22,7 +22,7 @@ const Projects = () => {
           </a>
           <div className="project-text">
             <h4>BuzzBuzz</h4>
-            <p>BuzzBuzz is a buzzing application for various games such as Jeopardy!</p>
+            <p>BuzzBuzz is a real-time buzzing application for various games such as Jeopardy!</p>
           </div>
         </div>
         <div className="project-mod">
