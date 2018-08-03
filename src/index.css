@@ -32,7 +32,7 @@ body {
 }
 
 .home {
-  background-image: url("/back.jpg");
+  background-image: url("/splash_back.jpg");
   background-position: center;
   background-repeat: none;
   background-size: cover;
@@ -107,7 +107,7 @@ nav ul a {
 }
 
 .projects {
-  background-image: url("/projects.jpg");
+  background-image: url("/projects_back.jpg");
   background-position: center;
   background-repeat: none;
   background-size: cover;
